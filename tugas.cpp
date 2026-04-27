@@ -36,4 +36,9 @@ private:
     double sisi, d1, d2;
 
 public:
+    void inputData() {
+        cout << "Sisi       : "; cin >> sisi;
+        cout << "Diagonal 1 : "; cin >> d1;
+        cout << "Diagonal 2 : "; cin >> d2;
+    }
 };
