@@ -30,3 +30,10 @@ public:
 
     friend double kelilingLayang(LayangLayang &l, BelahKetupat &b);
 };
+
+class BelahKetupat {
+private:
+    double sisi, d1, d2;
+
+public:
+};
