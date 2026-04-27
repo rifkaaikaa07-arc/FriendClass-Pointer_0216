@@ -66,4 +66,8 @@ int main() {
     LayangLayang layang;
     layang.inputData();
     layang.outputData();
+
+    BelahKetupat ketupat;
+    ketupat.inputData();
+    ketupat.outputData();
 }
