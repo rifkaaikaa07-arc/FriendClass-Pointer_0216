@@ -54,4 +54,6 @@ public:
         cout << "Luas Belah Ketupat     : " << hitungLuas() << endl;
         cout << "Keliling Belah Ketupat : " << hitungKeliling() << endl;
     }
+
+    friend double kelilingLayang(LayangLayang &l, BelahKetupat &b);
 };
