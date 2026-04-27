@@ -22,4 +22,9 @@ public:
     double hitungKeliling() {
         return 2 * (sisi1 + sisi2);
     }
+
+    void outputData() {
+        cout << "Luas Layang-Layang     : " << hitungLuas() << endl;
+        cout << "Keliling Layang-Layang : " << hitungKeliling() << endl;
+    }
 };
