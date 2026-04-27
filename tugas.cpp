@@ -70,4 +70,8 @@ int main() {
     BelahKetupat ketupat;
     ketupat.inputData();
     ketupat.outputData();
+
+    cout << "Keliling Layang-Layang (friend) : " << kelilingLayang(layang, ketupat) << endl;
+
+    return 0;
 }
