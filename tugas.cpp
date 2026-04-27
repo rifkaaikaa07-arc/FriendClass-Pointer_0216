@@ -14,4 +14,8 @@ public:
         cout << "Sisi 1     : "; cin >> sisi1;
         cout << "Sisi 2     : "; cin >> sisi2;
     }
+
+    double hitungLuas() {
+        return 0.5 * d1 * d2;
+    }
 };
